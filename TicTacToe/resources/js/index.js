@@ -222,6 +222,10 @@ $(document).ready(function(){
 	    alert("'X' is the winner");
 	    window.location.reload();  
 	  }
+	  if (checkIfExistsAWinner().match("draw") != null){
+	    alert("It was a draw.");
+	    window.location.reload();  
+	  }
 	}
   }, 500);
   
