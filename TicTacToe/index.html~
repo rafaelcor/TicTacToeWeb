@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="resources/css/index.css" />
+    	<script src="resources/js/jquery.js"></script>
+	<script src="resources/js/index.js"></script>
+    </head>
+   
+    <body>
+	<div id="divs">
+		<span id="c1">X</span>
+		<span id="c2">X</span>
+		<span id="c3">X</span><br/>
+		<span id="c4">X</span>
+		<span id="c5">X</span>
+		<span id="c6">X</span><br/>
+		<span id="c7">X</span>
+		<span id="c8">X</span>
+		<span id="c9">X</span>
+	</div>
+    </body>
+
+</html>
